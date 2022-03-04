@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang = "en">
+  <head>
+    <meta charset = "UTF-8">
+	<title>Strange Foods</title>
+	<link rel = "stylesheet" type = "text/css" href = "style.css"/>
+	<style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito+Sans:wght@300&display=swap');
+    </style>
+  </head>
+  <body>
+    <div id = "header">
+      <nav>
+	    <a href = "index.html">Home</a>
+	    <a href = "century.html">Century Egg</a>
+	    <a href = "pie.html">Stargazy Pie</a>
+	    <a class = "active" href = "marzu.html">Casu Marzu</a>
+	  </nav>
+   	  <div id = "line"></div> <!-- empty div for the purpose of creating a line underneath navbar that could
+      have margin added-->  
+    </div>
+    <div id = "content">
+      <div id = "text-container">
+	    <h1>Introduction</h1>
+        <p>
+        Dubbed &ldquo;the world’s most dangerous cheese&rdquo;, casu marzu is exclusively made on the Italian island of Sardinia. Its 
+        notoriety is anything but an exaggeration, as <span class = "bolded">live maggots</span> are an essential ingredient to the 
+        cheese&rsquo;s making. <a href = "#Source_1">[1]</a>
+	    </p>
+	    <h2>Fermentation</h2>
+	    <p>
+	    Blocks of pecorino cheese are first infested with eggs laid by cheese flies. As the eggs hatch, larvae proceed to ingest the cheese 
+	    excrete them out, resulting in a significantly softer texture and spicy taste in the cheese; this process typically takes three months 
+	    of time. 
+	    </p>
+	    <h2>Consumption</h2>
+	    <p>
+	    Casu Marzu is typically eaten with the maggots kept alive, as the cheese is deemed to have gone bad otherwise. Although unlikely, maggots
+	    exhibit enough jumping ability to land in your eyes, making it crucial to cover your eyes when experiencing this uniquely dangerous
+	    delicacy. <a href = "#Source_2">[2]</a>
+	    </p>  
+      </div>
+      <div id = "image-container">
+	    <div class = "figure"> <!-- figure div allows captions to be right underneath images-->
+	      <!--each image is given an id to be styled in css-->
+		  <img id = "cheese" src = "cheese.jpg" alt = "The Infamous Casu Marzu" height = "170">
+		  <p class = "caption">The Infamous Casu Marzu <a href = "#Source_3">[3]</a></p>
+	    </div>
+	    <div class = "figure">
+	      <img id = "fly" src = "fly.jpg" alt = "The Cheese Fly" height = "200">
+	      <p class = "caption">The Cheese Fly <a href = "#Source_4">[4]</a></p>
+	    </div>
+	  </div>
+    </div>
+    <footer>
+      <h1>Sources:</h1>
+	  <ol>
+	    <li id = "Source_1">
+        Great Big Story. &ldquo;This Rare Cheese Is Infested With Live Maggots.&rdquo; Retrieved 2022-03-01 from
+		  <a href = "https://youtu.be/Y8F-0Ogp4fU">https://youtu.be/Y8F-0Ogp4fU</a>.
+		</li>
+		<li id = "Source_2">
+		Wikipedia Contributors. &ldquo;Casu Martzu.&rdquo; Retrieved 2022-03-01 from
+		  <a href = "https://en.wikipedia.org/wiki/Casu_martzu">https://en.wikipedia.org/wiki/Casu_martzu</a>.
+		</li>
+		<li id = "Source_3">
+		Shardan. &ldquo;Casu Marzu cheese.jpg&rdquo; Retrieved 2022-03-01 from
+		  <a href = "https://commons.wikimedia.org/wiki/File:Casu_Marzu_cheese.jpg">
+		  https://commons.wikimedia.org/wiki/File:Casu_Marzu_cheese.jpg</a>
+		  <a href = "https://creativecommons.org/licenses/by-sa/2.5/deed.en">
+		  &#40;Licensed under CC BY-SA 2.5&#41;</a>.
+		</li>
+		<li id = "Source_4">
+		Author died 1862, PD. &ldquo;Piophila casei british entymology detail.jpg&rdquo; Retrieved 2022-03-01 from
+		  <a href = "https://commons.wikimedia.org/wiki/File:Piophila_casei_british_entymology_detail.jpg">
+		  https://commons.wikimedia.org/wiki/File:Piophila_casei_british_entymology_detail.jpg</a>.
+		</li>
+	  </ol>
+	  <img src = "w3c.png" alt = "w3c validator" width = "30px" height = "30px">
+    </footer>
+  </body>
+</html>
