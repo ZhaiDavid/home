@@ -1,0 +1,168 @@
+html{
+	height: 100%; /*allows min-height: 100% to be applied to body for the purpose of creating
+	a sticky footer*/
+}
+
+body{
+	margin-left: 15%;
+	margin-right: 15%;
+	display: flex; /*for the purpose of sticky footer*/
+	flex-direction: column; /*for the purpose of sticky footer*/
+	min-height: 100%; /*for the purpose of sticky footer*/
+	background-color: #DCDCDC;
+}
+
+nav{
+    display: flex;
+	justify-content: space-evenly;
+	margin-top: 20px;
+	align-items: center; /*centers links vertically when screen gets small*/
+}
+
+nav a{
+	border-radius: 20px; /*creates imaginary border for active links and hover*/
+	margin: 18px;
+	padding: 12px;
+	text-decoration: none;
+	color: black;
+	font-size: 18pt;
+	font-family: Verdana, serif;
+	text-align: center;
+}
+
+#header{
+	position: sticky; /*makes header stay at top when scrolling*/
+    top: 0;
+	background-color: #DCDCDC; /*makes header not conflict with display of content*/
+}
+
+.active{
+	background-color: #c07a50; 
+}
+	
+nav a:hover{
+	background-color: gray;
+}
+
+#line{
+	margin-top: 10px; 
+	border-style: outset;
+}
+
+
+#content{
+	margin-top: 2%;
+	margin-left: 4%;
+	margin-right: 4%;
+	font-family: Montserrat, serif;
+	display: flex; /*uses flexbox to have one column for text and another for image*/
+}
+
+#text-container{
+	flex-basis: 60%; /*declares width of text container*/
+    font-size: 13pt;
+	line-height: 18pt;
+	margin-left: 5%;
+}
+
+#image-container{
+	flex-basis: 25%; /*declares width of image container*/
+	display: flex; /*uses flexbox to organize images vertically*/
+	flex-direction: column;
+	justify-content: space-between;
+	margin-left: 5%;
+}
+
+#image-container img{
+	width: 100%; /* ensures images will shrink when available space is reduced*/
+}
+
+#platter{
+	border-style: solid;
+	border-width: 4px;
+	border-color: #DC143C;
+	border-radius: 20px;
+	margin-top: 25%;
+}
+	
+#egg{
+	border-style: solid;
+	border-width: 4px;
+	border-color: #36454F;
+	border-radius: 20px;
+	margin-top: 25%;
+}
+
+#rice_hull{
+	border-style: solid;
+	border-width: 4px;
+	border-color: #36454F;
+	border-radius: 70px;
+}
+
+#congee{
+	border-style: solid;
+	border-width: 4px;
+	border-color: #36454F;
+	border-radius: 20px;
+}
+
+#cheese{
+	border-style: solid;
+	border-width: 4px;
+	border-color: #D8BCAB;
+	border-radius: 10px;
+	margin-top: 25%;
+}
+
+#fly{
+	border-style: solid;
+	border-width: 4px;
+	border-color: #D8BCAB;
+	border-radius: 10px;
+}
+
+#pie{
+	border-style: solid;
+	border-width: 4px;
+	border-color: #996515;
+	border-radius: 20px;
+	margin-top: 25%;
+}
+
+#mousehole{
+	border-style: solid;
+	border-width: 4px;
+	border-color: #996515;
+	border-radius: 20px;
+}
+	
+.caption{
+	font-size: 9pt;
+	text-align: center;
+}
+
+.bolded{
+	font-weight: bold;
+}
+
+
+footer{
+	font-family: Montserrat, serif;
+	font-size: 10pt;
+	color: white;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-left: 2%;
+	background-color: #414a4c;
+	margin-top: auto; /* for the purpose of sticky footer, places footer at the bottom of page */
+	border-radius: 20px;
+}
+
+footer a{
+	color: white;
+}
+
+
+
+
